@@ -18,7 +18,7 @@ The Taxi Fare Calculator is a simple web application that helps users estimate t
 
 1. Clone or download the repository to your local machine.
 2. Open the `intro.html` file in your web browser to view the introduction page.
-3. Click on the "Go to Calculator" button to proceed to the calculator page (`calculator.html`).
+3. Click on the "Go to Calculator" button to proceed to the calculator page (`index.html`).
 4. Enter the number of passengers, fare per passenger, and the amount paid.
 5. Click the "Calculate Fare and Change" button to see the total fare and change.
 
