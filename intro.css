@@ -1,0 +1,36 @@
+.intro-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro-logo {
+    width: 100px; 
+    margin-bottom: 40px;
+}
+
+.intro-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.calculator-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.calculator-button:hover {
+    background-color: #0056b3;
+}
