@@ -1,17 +1,26 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Taxi Fare Calculator - Introduction</title>
-<link rel="stylesheet" type="text/css" href="intro.css">
+<title>Taxi Fare Calculator</title>
+<link rel="stylesheet" type="text/css" href="taxi-fare-calculator.css">
 </head>
 <body>
-    <div class="intro-container">
-        <img src="taxi.jpeg" alt="Taxi Logo" class="intro-logo">
-        <h2 class="intro-title">Welcome to the Taxi Fare Calculator</h2>
-        <p class="intro-description">This calculator helps you estimate the fare for a taxi ride based on the number of passengers, fare per passenger, and the amount paid. It also calculates the change for the passengers.</p>
-        <a href="index.html" class="calculator-button">Go to Calculator</a>
-    </div>
+<div class="container">
+    <h2>Taxi Fare Calculator</h2>
+    <label for="passengers">Number of Passengers (Maximum 16):</label>
+    <input type="number" id="passengers" placeholder="Enter number of passengers" min="0" max="16">
+    <label for="fare">Fare per Passenger:</label>
+    <input type="number" id="fare" placeholder="Enter fare per passenger">
+    <label for="paid">Amount Paid:</label>
+    <input type="number" id="paid" placeholder="Enter amount paid">
+    <button id="calculateButton">Calculate Fare and Change</button>
+    <p id="fareResult"></p>
+</div>
+
+<script src="taxi-fare-calculator.js"></script>
 </body>
 </html>
